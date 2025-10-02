@@ -1,0 +1,51 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sidebar
+{
+    background-color: azure;
+    flex: 1;
+}
+
+.post
+{
+    background-color: azure;
+    flex: 1;
+}
+
+.content {
+    background-color: aquamarine;
+    flex: 2;
+}
+
+/* Smart Phone*/
+@media only screen and (max-width: 600px){
+    section {
+        flex-direction: column;
+    }   
+}
+
+/*Tablet*/
+@media only screen and (min-width: 600px){
+    section {
+        flex-direction: row;
+    }   
+    .post
+    {
+        flex-basis: 100%;
+    }
+}
+/*Laptop*/
+@media only screen and (min-width: 800px){
+    section {
+        flex-direction: row;
+    }   
+    .post
+    {
+        flex-basis: 0%;
+    }
+}
