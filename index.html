@@ -6,6 +6,165 @@
     <title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
     <h1>Bienvenidos</h1>
+=======
+   
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif; 
+      background:beige; 
+      color:#111; 
+      padding:20px;
+    
+    }
+    .container{
+      width: 100%;
+      margin:10px;
+      padding:18px;
+    }
+    h1{
+      font-size:20px;
+      text-align:center;
+      margin:6px 0 18px;
+    }
+    .section{
+      display:flex;
+      gap:18px;
+      margin-bottom:10px;
+    }
+    .box{
+      flex:1;
+      padding:1px;
+    }
+    .row{
+      display:flex;
+      border:1px solid burlywood;
+    }
+    .row:first-child{
+      border-top:0;
+    }
+    .cell-label{
+      width:220px;
+      padding:8px;
+      border-right:1px solid rebeccapurple;
+      font-weight:700;
+      background:pink;
+    }
+    .cell-value{
+      flex:1;
+      padding:8px;
+    }
+    .two-col{
+      display:flex;
+      gap:12px;
+    }
+    .small-table{
+      width:100%;
+      border:1px solid black;
+      margin-top:8px;
+    }
+    .small-table .r{
+      display:flex;
+      border:1px solid green;
+    }
+    .small-table .label{
+      width:180px;padding:8px;
+      border-right:1px solid blueviolet;
+      background:orangered;
+      font-weight:700;
+    }
+    .small-table .val{
+      flex:1;
+      padding:8px;
+    }
+    .footer-note{
+      font-size:12px;
+      color:palevioletred;
+      margin-top:10px;
+    }
+    .big-header{
+      border:1px solid black;
+      padding:10px;
+      text-align:center;
+      font-weight:700;
+      margin-bottom:14px;
+    }
+    @media print{
+      body{
+        padding:0;
+      }
+      .container{
+        border:0;
+      }
+    }
+
+    .picture {
+      float: left;
+      width: 18%;
+    }
+  </style>
+</head>
+<body>
+  <div class="picture">
+    <img src="./assets/imagen2.jpg">
+  </div>
+  <div class="container">
+    <div class="big-header">Registro "UATF"</div>
+    <div class="section">
+      <div class="box">
+        <div style="font-weight:800;margin-bottom:6px">DATOS PERSONALES</div>
+        <div class="row"><div class="cell-label">APELLIDO PATERNO</div><input type="text"placeholder=" "></div></input>
+        <div class="row"><div class="cell-label">APELLIDO MATERNO</div><input type="text"placeholder=" "></div></input>
+        <div class="row"><div class="cell-label">NOMBRES</div><input type="text"placeholder=" "></div></input>
+      </div>
+      <div class="row"><div class="cell-label">FECHA DE NACIMIENTO</div><input type="date"placeholder=" "></div></div>
+      <br>
+      <input type="radio"name="sexo">Masculino</input>
+      <input type="radio"name="sexo">Femenino</div></input>
+      
+      <div class="row"><div class="cell-label">ESTADO CIVIL</div><input type="text"placeholder=" "></div></div>
+      <div class="row"><div class="cell-label">N° DIPLOMA BACHILLER</div><input type="number"placeholder=" "></div></div>
+      <div class="row"><div class="cell-label">CORREO ELECTRÓNICO</div><input type="text"placeholder=" "></div>
+    </div>
+    
+    <div class="box">
+    <div style="font-weight:800;margin-bottom:6px;border:1px solid black;">DOMICILIO / DATOS</div>
+    <div class="row"><div class="cell-label">ZONA</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">DIRECCIÓN</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">TELÉFONO</div><input type="number"placeholder=" "></div></div>
+    </div>
+
+    <div class="row"><div class="cell-label">PAÍS</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">DEPARTAMENTO</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">PROVINCIA</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">LOCALIDAD</div><input type="text"placeholder=" "></div></div>
+  </div>
+  <div class="section">
+  <div class="box">
+    <div style="font-weight:800;margin-bottom:6px;border:1px solid black;">COLEGIO DE EGRESO</div>
+    <div class="row"><div class="cell-label">COLEGIO</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">TURNO</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">TIPO</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">AREA</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">AÑO DE EGRESO</div><input type="number"placeholder=" "></div></div>
+  </div>
+
+  <div class="box">
+    <div class="row"><div class="cell-label">PAÍS</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">DEPARTAMENTO</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">PROVINCIA</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">LOCALIDAD</div><input type="text"placeholder=" "></div></div>
+  </div>
+  <div class="section">
+  <div class="box">
+    <div style="font-weight:800;margin-bottom:6px;border:1px solid black;">PADRE O APODERADO</div></input>
+    <div class="row"><div class="cell-label">APELLIDO PATERNO</div><input type="text"placeholder=" "></div></input>
+    <div class="row"><div class="cell-label">APELLIDO MATERNO</div><input type="text"placeholder=" "></div></input>
+    <div class="row"><div class="cell-label">NOMBRES</div><input type="text"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">TELÉFONO</div><input type="number"placeholder=" "></div></div>
+    <div class="row"><div class="cell-label">DIRECCIÓN</div><input type="text"placeholder=" "></div></div>
+  </div>
+>>>>>>> 9023d4c (primer comentario)
 </body>
 </html>
