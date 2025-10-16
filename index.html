@@ -1,170 +1,97 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Historia del Kon Tiki</title>
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <h1>Bienvenidos</h1>
-=======
-   
-  <style>
-    body{
-      font-family: Arial, Helvetica, sans-serif; 
-      background:beige; 
-      color:#111; 
-      padding:20px;
-    
-    }
-    .container{
-      width: 100%;
-      margin:10px;
-      padding:18px;
-    }
-    h1{
-      font-size:20px;
-      text-align:center;
-      margin:6px 0 18px;
-    }
-    .section{
-      display:flex;
-      gap:18px;
-      margin-bottom:10px;
-    }
-    .box{
-      flex:1;
-      padding:1px;
-    }
-    .row{
-      display:flex;
-      border:1px solid burlywood;
-    }
-    .row:first-child{
-      border-top:0;
-    }
-    .cell-label{
-      width:220px;
-      padding:8px;
-      border-right:1px solid rebeccapurple;
-      font-weight:700;
-      background:pink;
-    }
-    .cell-value{
-      flex:1;
-      padding:8px;
-    }
-    .two-col{
-      display:flex;
-      gap:12px;
-    }
-    .small-table{
-      width:100%;
-      border:1px solid black;
-      margin-top:8px;
-    }
-    .small-table .r{
-      display:flex;
-      border:1px solid green;
-    }
-    .small-table .label{
-      width:180px;padding:8px;
-      border-right:1px solid blueviolet;
-      background:orangered;
-      font-weight:700;
-    }
-    .small-table .val{
-      flex:1;
-      padding:8px;
-    }
-    .footer-note{
-      font-size:12px;
-      color:palevioletred;
-      margin-top:10px;
-    }
-    .big-header{
-      border:1px solid black;
-      padding:10px;
-      text-align:center;
-      font-weight:700;
-      margin-bottom:14px;
-    }
-    @media print{
-      body{
-        padding:0;
-      }
-      .container{
-        border:0;
-      }
-    }
 
-    .picture {
-      float: left;
-      width: 18%;
-    }
-  </style>
-</head>
-<body>
-  <div class="picture">
-    <img src="./assets/imagen2.jpg">
-  </div>
-  <div class="container">
-    <div class="big-header">Registro "UATF"</div>
-    <div class="section">
-      <div class="box">
-        <div style="font-weight:800;margin-bottom:6px">DATOS PERSONALES</div>
-        <div class="row"><div class="cell-label">APELLIDO PATERNO</div><input type="text"placeholder=" "></div></input>
-        <div class="row"><div class="cell-label">APELLIDO MATERNO</div><input type="text"placeholder=" "></div></input>
-        <div class="row"><div class="cell-label">NOMBRES</div><input type="text"placeholder=" "></div></input>
-      </div>
-      <div class="row"><div class="cell-label">FECHA DE NACIMIENTO</div><input type="date"placeholder=" "></div></div>
-      <br>
-      <input type="radio"name="sexo">Masculino</input>
-      <input type="radio"name="sexo">Femenino</div></input>
-      
-      <div class="row"><div class="cell-label">ESTADO CIVIL</div><input type="text"placeholder=" "></div></div>
-      <div class="row"><div class="cell-label">N° DIPLOMA BACHILLER</div><input type="number"placeholder=" "></div></div>
-      <div class="row"><div class="cell-label">CORREO ELECTRÓNICO</div><input type="text"placeholder=" "></div>
+<header>
+    <h1>Expedición Kon Tiki</h1>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Historia</a>
+    <a href="#">Galería</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<aside>
+    <h3>Datos del Viaje</h3>
+    <ul>
+    <li>Año: 1947</li>
+    <li>Explorador: Thor Heyerdahl</li>
+    <li>Duración: 101 días</li>
+    <li>Desde: Perú</li>
+    <li>Hasta: Polinesia</li>
+    </ul>
+
+    <h3>Formulario de Contacto</h3>
+    <form>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="correo">Correo:</label><br>
+    <input type="email" id="correo" name="correo" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+    </form>
+</aside>
+
+<main>
+    <h2>La Aventura del Kon Tiki</h2>
+    <p>
+    El <strong>Kon Tiki</strong> fue una balsa construida por el explorador noruego <strong>Thor Heyerdahl</strong> en 1947.
+    Su objetivo era demostrar que los pueblos antiguos de Sudamérica podían haber llegado a las islas de la Polinesia usando
+    embarcaciones simples hechas de troncos y cuerdas.
+    </p>
+    <p>
+    La expedición partió desde el puerto del Callao (Perú) y recorrió más de 8.000 km por el Océano Pacífico.
+    Después de 101 días de navegación, la tripulación llegó a las islas Tuamotu (Polinesia Francesa).
+    El nombre “Kon Tiki” proviene del dios solar Viracocha, una deidad inca que, según la leyenda, viajó por el mar llevando la civilización a otras tierras.
+    </p>
+    <img src="C:\Users\hp\Desktop\Examen 1parcial\nala.jpeg "Balsa Kon Tiki"  width="250px" height="250px">
+
+    <h3>Tripulación del Kon Tiki</h3>
+    <div class="crew-cards">
+    <div class="card">
+        <h2>Thor Heyerdahl</h2>
+        <p><strong>Rol:</strong> Líder / Explorador</p>
+        <p><strong>Edad:</strong> 38</p>
+        <img src="C:\Users\hp\Desktop\Examen 1parcial\nili.jpeg" Thor Heyerdahl" width="250px" height="250px">
     </div>
-    
-    <div class="box">
-    <div style="font-weight:800;margin-bottom:6px;border:1px solid black;">DOMICILIO / DATOS</div>
-    <div class="row"><div class="cell-label">ZONA</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">DIRECCIÓN</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">TELÉFONO</div><input type="number"placeholder=" "></div></div>
+    <div class="card">
+        <h4>Erik Hesselberg</h4>
+        <p><strong>Rol:</strong> Navegante / Artista</p>
+        <p><strong>Edad:</strong> 30</p>
+        <img src="C:\Users\hp\Desktop\Examen 1parcial\erick.jpeg" alt="Erik Hesselberg"  width="250px" height="250px">
     </div>
+    <div class="card">
+        <h4>Bengt Danielsson</h4>
+        <p><strong>Rol:</strong> Sociólogo / Cocinero</p>
+        <p><strong>Edad:</strong> 32</p>
+        <img src="C:\Users\hp\Desktop\Examen 1parcial\nel.jpg" alt="Bengt Danielsson"  width="250px" height="250px">
+    </div>
+    <div class="card">
+        <h4>Torstein Raaby</h4>
+        <p><strong>Rol:</strong> Radio / Comunicaciones</p>
+        <p><strong>Edad:</strong> 34</p>
+        <img src="C:\Users\hp\Desktop\Examen 1parcial\torstein.webp" alt="Torstein Raaby"  width="250px" height="250px">
+    </div>
+    </div>
+</main>
 
-    <div class="row"><div class="cell-label">PAÍS</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">DEPARTAMENTO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">PROVINCIA</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">LOCALIDAD</div><input type="text"placeholder=" "></div></div>
-  </div>
-  <div class="section">
-  <div class="box">
-    <div style="font-weight:800;margin-bottom:6px;border:1px solid black;">COLEGIO DE EGRESO</div>
-    <div class="row"><div class="cell-label">COLEGIO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">TURNO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">TIPO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">AREA</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">AÑO DE EGRESO</div><input type="number"placeholder=" "></div></div>
-  </div>
+<footer>
+    © 2025 - Paulino Esteban - Tarea 2do Parcial
+</footer>
 
-  <div class="box">
-    <div class="row"><div class="cell-label">PAÍS</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">DEPARTAMENTO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">PROVINCIA</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">LOCALIDAD</div><input type="text"placeholder=" "></div></div>
-  </div>
-  <div class="section">
-  <div class="box">
-    <div style="font-weight:800;margin-bottom:6px;border:1px solid black;">PADRE O APODERADO</div></input>
-    <div class="row"><div class="cell-label">APELLIDO PATERNO</div><input type="text"placeholder=" "></div></input>
-    <div class="row"><div class="cell-label">APELLIDO MATERNO</div><input type="text"placeholder=" "></div></input>
-    <div class="row"><div class="cell-label">NOMBRES</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">TELÉFONO</div><input type="number"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">DIRECCIÓN</div><input type="text"placeholder=" "></div></div>
-  </div>
->>>>>>> 9023d4c (primer comentario)
 </body>
 </html>
