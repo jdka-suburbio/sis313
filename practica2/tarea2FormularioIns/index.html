@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Postulación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="color: brown;">UNIVERSIDAD AUTÓNOMA TOMÁS FRÍAS</h1>
+    <h3 style="color: rgb(122, 8, 8);">Formulario de Postulación</h3>
+
+    <form>
+        <label for="nombre">Nombres:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="paterno">Apellido Paterno:</label><br>
+        <input type="text" id="paterno" name="paterno"><br><br>
+
+        <label for="materno">Apellido Materno:</label><br>
+        <input type="text" id="materno" name="materno"><br><br>
+
+        <label for="carnet">Carnet expedido en:</label><br>
+        <select id="carnet" name="carnet">
+            <option value="Potosi">Potosí</option>
+            <option value="Oruro">Oruro</option>
+            <option value="Sucre">Sucre</option>
+            <option value="Cochabamba">Cochabamba</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Tarija">Tarija</option>
+            <option value="La_Paz">La Paz</option>
+            <option value="Pando">Pando</option>
+            <option value="Beni">Beni</option>
+        </select><br><br>
+
+        <label for="estado">Estado Civil:</label><br>
+        <select id="estado" name="estado">
+            <option value="soltero">Soltero(a)</option>
+            <option value="casado">Casado(a)</option>
+            <option value="divorciado">Divorciado(a)</option>
+        </select><br><br>
+
+        <label for="fecha">Fecha de Nacimiento:</label><br>
+        <input type="date" id="fecha" name="fecha"><br><br>
+
+        <label for="sexo">Seleccione su género:</label><br>
+        <select id="sexo" name="sexo">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            </select><br><br>
+
+        <label for="telefono">Teléfono Personal:</label><br>
+        <input type="text" id="telefono" name="telefono"><br><br>
+
+        <label for="fijo">Teléfono Fijo:</label><br>
+        <input type="text" id="fijo" name="fijo"><br><br>
+
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
