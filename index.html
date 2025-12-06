@@ -1,170 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<<<<<<< HEAD
-    <h1>Bienvenidos</h1>
-=======
-   
-  <style>
-    body{
-      font-family: Arial, Helvetica, sans-serif; 
-      background:beige; 
-      color:#111; 
-      padding:20px;
-    
-    }
-    .container{
-      width: 100%;
-      margin:10px;
-      padding:18px;
-    }
-    h1{
-      font-size:20px;
-      text-align:center;
-      margin:6px 0 18px;
-    }
-    .section{
-      display:flex;
-      gap:18px;
-      margin-bottom:10px;
-    }
-    .box{
-      flex:1;
-      padding:1px;
-    }
-    .row{
-      display:flex;
-      border:1px solid burlywood;
-    }
-    .row:first-child{
-      border-top:0;
-    }
-    .cell-label{
-      width:220px;
-      padding:8px;
-      border-right:1px solid rebeccapurple;
-      font-weight:700;
-      background:pink;
-    }
-    .cell-value{
-      flex:1;
-      padding:8px;
-    }
-    .two-col{
-      display:flex;
-      gap:12px;
-    }
-    .small-table{
-      width:100%;
-      border:1px solid black;
-      margin-top:8px;
-    }
-    .small-table .r{
-      display:flex;
-      border:1px solid green;
-    }
-    .small-table .label{
-      width:180px;padding:8px;
-      border-right:1px solid blueviolet;
-      background:orangered;
-      font-weight:700;
-    }
-    .small-table .val{
-      flex:1;
-      padding:8px;
-    }
-    .footer-note{
-      font-size:12px;
-      color:palevioletred;
-      margin-top:10px;
-    }
-    .big-header{
-      border:1px solid black;
-      padding:10px;
-      text-align:center;
-      font-weight:700;
-      margin-bottom:14px;
-    }
-    @media print{
-      body{
-        padding:0;
-      }
-      .container{
-        border:0;
-      }
-    }
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hoja de Vida - Tu Nombre</title>
+  </head>
+  <body>
+    <header>
+      <h1>Juanito Alcachofa</h1>
+      <img src="./assets/images.jpg" alt="">
+      <p>Título profesional: SI— Ciudad: Potosi</p>
+      <p>Correo: nombrefalso@email.com | Tel: +591 723929344</p>
+    </header>
 
-    .picture {
-      float: left;
-      width: 18%;
-    }
-  </style>
-</head>
-<body>
-  <div class="picture">
-    <img src="./assets/imagen2.jpg">
-  </div>
-  <div class="container">
-    <div class="big-header">Registro "UATF"</div>
-    <div class="section">
-      <div class="box">
-        <div style="font-weight:800;margin-bottom:6px">DATOS PERSONALES</div>
-        <div class="row"><div class="cell-label">APELLIDO PATERNO</div><input type="text"placeholder=" "></div></input>
-        <div class="row"><div class="cell-label">APELLIDO MATERNO</div><input type="text"placeholder=" "></div></input>
-        <div class="row"><div class="cell-label">NOMBRES</div><input type="text"placeholder=" "></div></input>
-      </div>
-      <div class="row"><div class="cell-label">FECHA DE NACIMIENTO</div><input type="date"placeholder=" "></div></div>
-      <br>
-      <input type="radio"name="sexo">Masculino</input>
-      <input type="radio"name="sexo">Femenino</div></input>
+    <main>
+      <section>
+        <h2>Perfil profesional</h2>
+        <p>Profesional con 30 años de experiencia en área/industria. Breve resumen de competencias clave y el valor que aportas.</p>
+      </section>
+
+      <section>
+        <h2>Experiencia</h2>
+        
+        <article>
+          <h3>Nombre de la empresa : fisher — Cargo : empleado</h3>
+          <p>Fecha: Ene 2004 — Presente</p>
+          <p>empleado con pocas responsabilidades y logre crear una pagina.</p>
+          <ul>
+            <li>Logro mediano.</li>
+            <li>Impacto generado en tecnologia</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Otra empresa — Cargo anterior</h3>
+          <p>Fecha: Mar 2020 — Dic 2021</p>
+          <p>Descripción corta y responsabilidades.</p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Proyectos destacados</h2>
+        <p>creacion de paginas de apuestas</p>
+        <p>Proyecto :push apuestas</p>
       
-      <div class="row"><div class="cell-label">ESTADO CIVIL</div><input type="text"placeholder=" "></div></div>
-      <div class="row"><div class="cell-label">N° DIPLOMA BACHILLER</div><input type="number"placeholder=" "></div></div>
-      <div class="row"><div class="cell-label">CORREO ELECTRÓNICO</div><input type="text"placeholder=" "></div>
-    </div>
-    
-    <div class="box">
-    <div style="font-weight:800;margin-bottom:6px;border:1px solid black;">DOMICILIO / DATOS</div>
-    <div class="row"><div class="cell-label">ZONA</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">DIRECCIÓN</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">TELÉFONO</div><input type="number"placeholder=" "></div></div>
-    </div>
+        <p>Breve descripción y enlaces: <a href="#">GitHub</a> | <a href="#">inicio</a></p>
+      </section>
 
-    <div class="row"><div class="cell-label">PAÍS</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">DEPARTAMENTO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">PROVINCIA</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">LOCALIDAD</div><input type="text"placeholder=" "></div></div>
-  </div>
-  <div class="section">
-  <div class="box">
-    <div style="font-weight:800;margin-bottom:6px;border:1px solid black;">COLEGIO DE EGRESO</div>
-    <div class="row"><div class="cell-label">COLEGIO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">TURNO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">TIPO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">AREA</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">AÑO DE EGRESO</div><input type="number"placeholder=" "></div></div>
-  </div>
+      <section>
+        <h2>Educación</h2>
+        <p>uto — Título (2000 - 2004)</p>
+      </section>
 
-  <div class="box">
-    <div class="row"><div class="cell-label">PAÍS</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">DEPARTAMENTO</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">PROVINCIA</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">LOCALIDAD</div><input type="text"placeholder=" "></div></div>
-  </div>
-  <div class="section">
-  <div class="box">
-    <div style="font-weight:800;margin-bottom:6px;border:1px solid black;">PADRE O APODERADO</div></input>
-    <div class="row"><div class="cell-label">APELLIDO PATERNO</div><input type="text"placeholder=" "></div></input>
-    <div class="row"><div class="cell-label">APELLIDO MATERNO</div><input type="text"placeholder=" "></div></input>
-    <div class="row"><div class="cell-label">NOMBRES</div><input type="text"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">TELÉFONO</div><input type="number"placeholder=" "></div></div>
-    <div class="row"><div class="cell-label">DIRECCIÓN</div><input type="text"placeholder=" "></div></div>
-  </div>
->>>>>>> 9023d4c (primer comentario)
-</body>
+      <section>
+        <h2>Habilidades</h2>
+        <p>HTML, CSS, JavaScript, Angular, Git, SQL</p>
+      </section>
+
+      <section>
+        <h2>Certificaciones</h2>
+        <p>comunicacion — Entidad — 2001</p>
+      </section>
+
+      <section>
+        <h2>Idiomas</h2>
+        <p>Español (Nativo), Inglés (Intermedio/Avanzado)</p>
+      </section>
+
+      <section>
+        <h2>Intereses</h2>
+        <p>Empeñarme en mejorar mas en cada dia</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Hoja de vida</p>
+    </footer>
+  </body>
 </html>
